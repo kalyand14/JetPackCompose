@@ -1,6 +1,6 @@
 ## Applications
 
-### ToDo List App
+### 1. ToDo List App
 
 **UI Design:**
 - Task list with checkboxes
@@ -10,7 +10,7 @@
 **API:**
 - Local storage (Room Database)
 
-### Weather App
+### 2. Weather App
 
 **UI Design:**
 - City input text field
@@ -22,7 +22,7 @@
 **API:**
 - OpenWeatherMap API: `https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}`
 
-### Calculator App
+### 3. Calculator App
 
 **UI Design:**
 - Display screen for input and result
@@ -34,7 +34,7 @@
 **API:**
 - Local-only (no API required)
 
-### Note Taking App
+### 4. Note Taking App
 
 **UI Design:**
 - List of notes
@@ -44,7 +44,7 @@
 **API:**
 - Local storage (Room Database)
 
-### Currency Converter
+### 5. Currency Converter
 
 **UI Design:**
 - Amount input field
@@ -55,7 +55,7 @@
 **API:**
 - Exchange Rates API: `https://api.exchangerate-api.com/v4/latest/{base_currency}`
 
-### BMI Calculator
+### 6. BMI Calculator
 
 **UI Design:**
 - Height input field
@@ -66,7 +66,7 @@
 **API:**
 - Local-only (no API required)
 
-### Recipe App
+### 7. Recipe App
 
 **UI Design:**
 - Search bar
@@ -76,7 +76,7 @@
 **API:**
 - Spoonacular API: `https://api.spoonacular.com/recipes/complexSearch?query={query}&apiKey={API_KEY}`
 
-### Movie Catalog
+### 8. Movie Catalog
 
 **UI Design:**
 - Search bar
@@ -86,7 +86,7 @@
 **API:**
 - The Movie Database (TMDb) API: `https://api.themoviedb.org/3/search/movie?api_key={API_KEY}&query={query}`
 
-### Music Player
+### 9. Music Player
 
 **UI Design:**
 - List of songs
@@ -98,7 +98,7 @@
 **API:**
 - Local storage (audio files)
 
-### Timer App
+### 10. Timer App
 
 **UI Design:**
 - Timer display
@@ -107,7 +107,7 @@
 **API:**
 - Local-only (no API required)
 
-## Chat Application
+## 11. Chat Application
 
 **UI Design:**
 - Chat list with recent messages
@@ -118,7 +118,7 @@
 **API URL:**
 - Firebase Realtime Database: `https://your-firebase-project.firebaseio.com/chats/{chatId}/messages.json`
 
-## E-commerce App
+## 12. E-commerce App
 
 **UI Design:**
 - Product grid/list view with images, titles, and prices
@@ -128,7 +128,7 @@
 **API URL:**
 - FakeStore API: `https://fakestoreapi.com/products`
 
-## Photo Editor
+## 13. Photo Editor
 
 **UI Design:**
 - Image preview
@@ -139,7 +139,7 @@
 **API URL:**
 - Local-only (no API required)
 
-## Calendar App
+## 14. Calendar App
 
 **UI Design:**
 - Calendar grid view with dates
@@ -150,7 +150,7 @@
 **API URL:**
 - Google Calendar API: `https://www.googleapis.com/calendar/v3/calendars/{calendarId}/events?key={API_KEY}`
 
-## Fitness Tracker
+## 15. Fitness Tracker
 
 **UI Design:**
 - Workout list with exercises, sets, and reps
@@ -161,7 +161,7 @@
 **API URL:**
 - Local storage (Room Database)
 
-## Expense Tracker
+## 16. Expense Tracker
 
 **UI Design:**
 - List of expenses with categories
@@ -172,7 +172,7 @@
 **API URL:**
 - Local storage (Room Database)
 
-## News Reader
+## 17. News Reader
 
 **UI Design:**
 - List of news articles with headlines and thumbnails
@@ -182,7 +182,7 @@
 **API URL:**
 - NewsAPI: `https://newsapi.org/v2/everything?q={query}&apiKey={API_KEY}`
 
-## Social Media Feed
+## 18. Social Media Feed
 
 **UI Design:**
 - Feed list with posts, likes, and comments
@@ -192,7 +192,7 @@
 **API URL:**
 - Mock Social Media API (e.g., JSONPlaceholder)
 
-## Travel Planner
+## 19. Travel Planner
 
 **UI Design:**
 - List of trips with itineraries
@@ -202,7 +202,7 @@
 **API URL:**
 - TripAdvisor API: `https://api.tripadvisor.com/api/partner/2.0/location/{location_id}?key={API_KEY}`
 
-## Recipe Finder
+## 20. Recipe Finder
 
 **UI Design:**
 - Ingredient input field
@@ -212,7 +212,7 @@
 **API URL:**
 - Spoonacular API: `https://api.spoonacular.com/recipes/findByIngredients?ingredients={ingredients}&apiKey={API_KEY}`
 
-21. Flashcard App
+## 21. Flashcard App
 
 **UI Design:**
 - Flashcard deck with question and answer sides
@@ -232,7 +232,7 @@
 **API URL:**
 - Local-only (no API required)
 
-23. Task Manager
+## 23. Task Manager
 
 **UI Design:**
 - Task list with categories (e.g., work, personal)
@@ -242,7 +242,7 @@
 **API URL:**
 - Local storage (Room Database)
 
-24. Podcast Player
+## 24. Podcast Player
 
 **UI Design:**
 - List of podcasts with episode titles and descriptions
@@ -252,7 +252,7 @@
 **API URL:**
 - Podcast Index API: `https://api.podcastindex.org/api/1.0/podcasts/search?title={query}&key={API_KEY}`
 
-25. Weather Widget
+## 25. Weather Widget
 
 **UI Design:**
 - Compact widget displaying current weather conditions
@@ -271,7 +271,7 @@
 **API URL:**
 - Local storage (Room Database)
 
-27. Restaurant Finder
+## 27. Restaurant Finder
 
 **UI Design:**
 - Search bar for location or cuisine
@@ -281,7 +281,7 @@
 **API URL:**
 - Yelp Fusion API: `https://api.yelp.com/v3/businesses/search?term={term}&location={location}`
 
-28. Journal App
+## 28. Journal App
 
 **UI Design:**
 - List of journal entries with dates and titles
@@ -291,7 +291,7 @@
 **API URL:**
 - Local storage (Room Database)
 
-29. Drawing App
+## 29. Drawing App
 
 **UI Design:**
 - Canvas for drawing with brushes and colors
@@ -300,7 +300,7 @@
 **API URL:**
 - Local-only (no API required)
 
-30. Password Manager
+## 30. Password Manager
 
 **UI Design:**
 - List of saved passwords with labels and usernames
